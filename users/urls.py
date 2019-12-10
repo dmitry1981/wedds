@@ -4,6 +4,7 @@ from rest_framework import routers
 router = routers.SimpleRouter()
 router.register(r'', UsersViewSet, )
 
+
 app_name = "users"
 urlpatterns = router.urls
 

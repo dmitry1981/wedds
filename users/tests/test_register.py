@@ -27,12 +27,3 @@ class RegisterTest(APITestCase):
         self.assertEqual(user.check_password(self.password), True)
 
 
-        # # self.assertEqual(response_data["transaction_id"], response_assert["transaction_id"])
-        # # self.assertEqual(response_data["hash"], response_assert["hash"])
-        # # self.assertEqual(response_data["_from"], response_assert["_from"])
-        # self.assertEqual(response_data["_to"], response_assert["_to"])
-        # self.assertEqual(response_data["currency"], response_assert["currency"])
-        # self.assertEqual(Decimal(response_data["amount"]), Decimal(response_assert["amount"]))
-        # self.assertEqual(response_data["confirmations"], response_assert["confirmations"])
-        # self.assertEqual(response_data["confirmed"], response_assert["confirmed"])
-        # self.assertEqual(response_data["status"], response_assert["status"])

@@ -13,8 +13,8 @@ class RegisterTest(APITestCase):
         user.save()
 
     def test_activate_success(self, *args):
-        response = self.client.get(f"/auth/activate/{self.activation_code}/")
-        self.assertEqual(response.status_code, 200)
+        response = self.client.get(f"/auth/activate/?code={self.activation_code}")
+        self.assertEqual(response.status_code, 204)
         # response_data = response.json()
 
         user = CustomUser.objects.get(email=self.email)
