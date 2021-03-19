@@ -20,7 +20,7 @@ setup(
         'Django==2.2.6',
         'psycopg2-binary==2.8.4',
 
-        'djangorestframework==3.10.3',
+        'djangorestframework==3.11.2',
         'django-rest-auth==0.9.5',
         'coreapi==2.3.3',
         'django-extensions==2.2.5',
