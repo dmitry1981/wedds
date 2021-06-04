@@ -17,7 +17,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     include_package_data=True,
     install_requires=[
-        'Django==2.2.6',
+        'Django==2.2.21',
         'psycopg2-binary==2.8.4',
 
         'djangorestframework==3.10.3',
